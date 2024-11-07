@@ -20,6 +20,8 @@ int main(int argc, char** argv) {
 
     int unusedVar = 3;
 
+    double unusedVarTest2 = 4;
+
     int32_t width = grayImagePtr->cols;
     int32_t height = grayImagePtr->rows;
     for (int32_t i = 0; i < height; ++i) {
